@@ -69,7 +69,7 @@ char __code ASCII2printwheel[96] =  {
 //     '¼'       "      '{'
 //     '§'       "      '<'
 //     '¶'       "      '>'
-//     code+'['  "      '|'
+//     code+'½'  "      '|'
 //     code+']'  "      '\'
 
 char __code printwheel2ASCII[97] = {
