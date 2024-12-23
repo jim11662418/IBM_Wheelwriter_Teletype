@@ -69,7 +69,7 @@ char code ASCII2printwheel[96] =  {
 //     '¼'       "      '{'
 //     '§'       "      '<'
 //     '¶'       "      '>'
-//     code+'['  "      '|'
+//     code+'½'  "      '|'
 //     code+']'  "      '\'
 
 char code printwheel2ASCII[96] = {
