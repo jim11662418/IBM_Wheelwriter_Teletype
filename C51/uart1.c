@@ -1,11 +1,11 @@
 //************************************************************************//
 // Interrupt driven UART1 functions.                                      //
-// f or the Keil C51 Compiler                                             //
+// for the Keil C51 Compiler                                              //
 //                                                                        //
 // UART1 uses a receive buffer in internal MOVX SRAM.                     //
 // UART1 uses the Timer 1 for baud rate generation. init_uart1 must be    //
 // called before using functions. No syntax error handling.               //
-// RxD on pin 21, TxD on pin 22,                                          //
+// RxD on pin 21, TxD on pin 22, No handshaking.                          //
 //************************************************************************//
 
 #include <reg51.h>

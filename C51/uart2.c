@@ -29,6 +29,7 @@
 
 sbit CTS = P1^3;                                // CTS input on pin 12 (not used)
 sbit RTS = P1^2;                                // RTS output on pin 11
+
 volatile unsigned char rx2_head;                // index used to fill receive buffer
 volatile unsigned char rx2_tail;                // index used to empty receive buffer
 volatile unsigned char rx2_remaining;           // receive buffer space remaining
