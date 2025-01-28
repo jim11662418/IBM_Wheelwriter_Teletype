@@ -1,7 +1,7 @@
 //************************************************************************//
 // Interrupt driven UART1 functions.                                      //
 // for the Small Device C Compiler (SDCC)                                 //
-//
+//                                                                        //
 // UART1 uses a receive buffer in internal MOVX SRAM.                     //
 // UART1 uses the Timer 1 for baud rate generation. init_uart1 must be    //
 // called before using functions. No syntax error handling.               //
